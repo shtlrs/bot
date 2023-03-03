@@ -65,7 +65,7 @@ jobs:
       - name: GitHub Actions Status Embed for Discord
         uses: SebastiaanZ/github-status-embed-for-discord@v0.2.1
         with:
-          # Our GitHub Actions webhook
+          # Our GitHub actions webhook
           webhook_id: '784184528997842985'
           webhook_token: ${{ secrets.GHA_WEBHOOK_TOKEN }}
 
