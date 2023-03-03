@@ -4,7 +4,6 @@ on:
   workflow_run:
     workflows:
       - Bot CI/CD
-      - Build & Deploy
     types:
       - completed
 
